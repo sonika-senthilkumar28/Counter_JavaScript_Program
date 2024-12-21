@@ -1,0 +1,73 @@
+#h1{
+    text-align: center;
+}
+#labelId{
+    display: flex;
+    text-align: center;
+    align-items: center;    /*for vertically*/
+    justify-content: center;    /* for horizontally*/
+    text-shadow:2px 2px 2px gray;  /*for text shadow*/
+    font-size: 2.2em;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 200;
+    background-color: rgb(130, 255, 213);
+    height: 10em;
+}
+#labelId:hover{
+    background-color:rgb(6, 249, 168) ;
+}
+#btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(180, 131, 237);
+    height: 20em;
+    gap: 2em;
+    padding:0.5em 5em ;
+}
+#btnContainer:hover{
+    background-color:rgb(131, 30, 247);
+}
+#dec_btn{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 7, 14);
+    background-color: rgb(255, 116, 52);
+    cursor: pointer; /*like ponting the hand*/
+    border-radius: 0.5em;
+    height: 5em;
+    width: 7em;
+}
+#dec_btn:hover{
+    background-color: rgb(252, 0, 0);
+    height: 7em;
+    width: 9em;
+}
+#reset_btn{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(60, 26, 230);
+    background-color: rgb(241, 252, 20);
+    cursor: pointer; /*like ponting the hand*/
+    border-radius: 0.5em;
+    height: 5em;
+    width: 7em;
+}
+#reset_btn:hover{
+    background-color: rgb(255, 217, 0);
+    height: 7em;
+    width: 9em;
+}
+#inc_btn{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(2, 44, 82);
+    background-color: rgb(124, 254, 64);
+    cursor: pointer; /*like ponting the hand*/
+    border-radius: 0.5em;
+    height: 5em;
+    width: 7em;
+}
+#inc_btn:hover{
+    background-color: rgb(0, 202, 13);
+    height: 7em;
+    width: 9em;
+}
